@@ -1,26 +1,6 @@
 {
-  "typeScale": [
-    3,
-    2.25,
-    1.5,
-    1.25,
-    1,
-    0.875,
-    0.75
-  ],
-  "spacing": [
-    0.125,
-    0.25,
-    0.5,
-    0.75,
-    1,
-    1.5,
-    2,
-    3,
-    4,
-    8,
-    16
-  ],
+  "typeScale": [3, 2.25, 1.5, 1.25, 1, 0.875, 0.75],
+  "spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
   "customMedia": [
     {
       "s": 20
@@ -78,11 +58,11 @@
   },
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#303030",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "action-primary": "#59ff00",
+      "action-secondary": "#14ff00",
+      "emphasis": "#d50000",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -129,10 +109,10 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
-      "link": "#0F3E99",
-      "emphasis": "#f71963",
+      "action-primary": "#59ff00",
+      "action-secondary": "#14ff00",
+      "link": "#59ff00",
+      "emphasis": "#d50000",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -172,9 +152,9 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "action-primary": "#59ff00",
+      "action-secondary": "#14ff00",
+      "emphasis": "#d50000",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -184,8 +164,8 @@
       "warning--faded": "#fff6e0",
       "muted-1": "#727273",
       "muted-2": "#979899",
-      "muted-3": "#cacbcc",
-      "muted-4": "#e3e4e6",
+      "muted-3": "#59ff00",
+      "muted-4": "#e1e1e1",
       "muted-5": "#f2f4f5"
     },
     "hover-border": {
@@ -200,7 +180,7 @@
       "warning--faded": "#fff6e0",
       "muted-1": "#727273",
       "muted-2": "#979899",
-      "muted-3": "#cacbcc",
+      "muted-3": "#fff",
       "muted-4": "#e3e4e6",
       "muted-5": "#f2f4f5"
     },
@@ -216,92 +196,57 @@
       "warning--faded": "#fff6e0",
       "muted-1": "#727273",
       "muted-2": "#979899",
-      "muted-3": "#cacbcc",
+      "muted-3": "#14ff00",
       "muted-4": "#e3e4e6",
       "muted-5": "#f2f4f5"
     },
     "on": {
       "base": "#3f3f40",
-      "base--inverted": "#ffffff",
-      "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
-      "emphasis": "#ffffff",
+      "base--inverted": "#303030",
+      "action-primary": "#303030",
+      "action-secondary": "#59ff00",
+      "emphasis": "#303030",
       "disabled": "#979899",
-      "success": "#ffffff",
+      "success": "#303030",
       "success--faded": "#3f3f40",
-      "danger": "#ffffff",
+      "danger": "#303030",
       "danger--faded": "#3f3f40",
-      "warning": "#ffffff",
+      "warning": "#303030",
       "warning--faded": "#1a1a1a",
-      "muted-1": "#ffffff",
-      "muted-2": "#ffffff",
+      "muted-1": "#303030",
+      "muted-2": "#303030",
       "muted-3": "#3f3f40",
       "muted-4": "#3f3f40",
       "muted-5": "#3f3f40"
     },
     "hover-on": {
-      "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
-      "emphasis": "#ffffff",
-      "success": "#ffffff",
+      "action-primary": "#303030",
+      "action-secondary": "#59ff00",
+      "emphasis": "#303030",
+      "success": "#303030",
       "success--faded": "#3f3f40",
-      "danger": "#ffffff",
+      "danger": "#303030",
       "danger--faded": "#3f3f40",
-      "warning": "#ffffff",
+      "warning": "#303030",
       "warning--faded": "#1a1a1a"
     },
     "active-on": {
-      "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
-      "emphasis": "#ffffff",
-      "success": "#ffffff",
+      "action-primary": "#303030",
+      "action-secondary": "#59ff00",
+      "emphasis": "#303030",
+      "success": "#303030",
       "success--faded": "#3f3f40",
-      "danger": "#ffffff",
+      "danger": "#303030",
       "danger--faded": "#3f3f40",
-      "warning": "#ffffff",
+      "warning": "#303030",
       "warning--faded": "#1a1a1a"
     }
   },
-  "borderWidths": [
-    0,
-    0.125,
-    0.25,
-    0.5,
-    1,
-    2
-  ],
-  "borderRadius": [
-    0,
-    0.125,
-    0.25,
-    0.5,
-    1
-  ],
-  "widths": [
-    1,
-    2,
-    4,
-    8,
-    16
-  ],
-  "maxWidths": [
-    1,
-    2,
-    4,
-    8,
-    16,
-    32,
-    48,
-    64,
-    96
-  ],
-  "heights": [
-    1,
-    2,
-    4,
-    8,
-    16
-  ],
+  "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
+  "borderRadius": [0, 0.125, 0.25, 0.5, 1],
+  "widths": [1, 2, 4, 8, 16],
+  "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
+  "heights": [1, 2, 4, 8, 16],
   "sizes": [
     {
       "name": "small",
@@ -317,11 +262,7 @@
     }
   ],
   "typography": {
-    "measure": [
-      30,
-      34,
-      20
-    ],
+    "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
@@ -416,19 +357,5 @@
       }
     }
   },
-  "opacity": [
-    1,
-    0.9,
-    0.8,
-    0.7,
-    0.6,
-    0.5,
-    0.4,
-    0.3,
-    0.2,
-    0.1,
-    0.05,
-    0.025,
-    0
-  ]
+  "opacity": [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.025, 0]
 }

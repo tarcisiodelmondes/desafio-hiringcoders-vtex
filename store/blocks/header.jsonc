@@ -5,10 +5,10 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
+  /* Desktop */
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -18,20 +18,15 @@
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "paddingTop": 4,
+      "paddingBottom": 4
     },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
-    ]
+    "children": ["flex-layout.col#logo-desktop", "search-bar", "minicart.v2"]
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -42,16 +37,39 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["image#logo"]
   },
-  "logo": {
+
+  /* Logo */
+  "image#logo": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "src": "assets/brand/upmedal.png",
+      "link": "/",
+      "maxHeight": 38
     }
   },
+
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteWidth": "100%",
+      "placeholder": "Buscar"
+    }
+  },
+
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon"
+    }
+  },
+
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 24
+    }
+  },
+
+  /* Mobile */
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
@@ -59,13 +77,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
+    "children": ["image#logo", "search-bar", "minicart.v2"],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,

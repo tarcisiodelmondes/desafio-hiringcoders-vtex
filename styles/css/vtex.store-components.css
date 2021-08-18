@@ -1,0 +1,52 @@
+/* Search bar Container */
+
+.searchBarContainer {
+  max-width: 550px;
+  width: 440px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  padding: 0;
+  background-color: #212121;
+  border-bottom: 1px solid transparent;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(184, 183, 183);
+  border-radius: 0;
+  transition: all 0.3s;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group):hover {
+  border-width: 2px;
+  border-bottom-color: #fff;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  background-color: #212121;
+  border-radius: 0;
+}
+
+/* Search Icon */
+.searchIcon {
+  color: #fff;
+}
+
+@media (max-width: 810px) {
+  .searchBarContainer {
+    max-width: 550px;
+    width: 150px;
+  }
+
+  .imageElementLink {
+    width: 80px;
+  }
+}

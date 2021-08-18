@@ -1,0 +1,7 @@
+.minicartIconContainer {
+  color: #fff;
+}
+
+.minicartIconContainer :global(.vtex-cartIcon) {
+  height: 100px;
+}
