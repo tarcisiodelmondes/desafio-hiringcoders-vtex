@@ -45,7 +45,8 @@
     "props": {
       "src": "assets/brand/upmedal.png",
       "link": "/",
-      "maxHeight": 38
+      "maxHeight": 38,
+      "blockClass": "image-logo"
     }
   },
 

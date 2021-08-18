@@ -1,0 +1,31 @@
+.sliderLayoutContainer {
+  width: 75%;
+  margin: 0.5rem auto;
+}
+
+.slideChildrenContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Dots */
+.paginationDotsContainer {
+  position: absolute;
+  bottom: -88px;
+}
+
+/* Arrow */
+.sliderArrows {
+  position: absolute;
+  bottom: -100px;
+  padding: 0 2rem 0 2rem;
+  color: #fff;
+}
+
+@media (max-width: 810px) {
+  .sliderLayoutContainer {
+    width: 85%;
+  }
+}

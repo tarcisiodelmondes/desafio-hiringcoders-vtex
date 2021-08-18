@@ -1,13 +1,104 @@
 {
   "store.home": {
-    "blocks": ["rich-text"]
+    "blocks": ["tab-layout#home", "slider-layout#destaque"]
   },
-  "rich-text": {
+  /* Tab layout */
+  "tab-layout#home": {
+    "children": ["tab-list", "tab-content"]
+  },
+
+  "tab-list": {
+    "children": [
+      "tab-list.item#none",
+      "tab-list.item#promocao",
+      "tab-list.item#corinthians"
+    ]
+  },
+
+  "tab-content": {
+    "children": [
+      "tab-list.item#none",
+      "tab-content.item#promocao",
+      "tab-content.item#corinthians"
+    ]
+  },
+  /* Tab none */
+  "tab-list.item#none": {
     "props": {
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "tabId": "none",
+      "label": ""
+    }
+  },
+
+  "tab-content.item#none": {
+    "children": [],
+    "props": {
+      "tabId": "none"
+    }
+  },
+
+  /* Tab promoção */
+  "tab-list.item#promocao": {
+    "props": {
+      "tabId": "promocao",
+      "label": "Promoção"
+    }
+  },
+
+  "tab-content.item#promocao": {
+    "children": [],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+
+  /* Tab Corinthians */
+  "tab-list.item#corinthians": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians"
+    }
+  },
+
+  "tab-content.item#corinthians": {
+    "children": [],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+
+  /* Slider-layout */
+  "slider-layout#destaque": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "fullWidth": true
+    },
+    "children": ["image#destaque1", "image#destaque2"]
+  },
+
+  "image#destaque1": {
+    "props": {
+      "src": "assets/banner-wood.png",
+      "alt": "Banner Wood",
+      "link": "/",
+      "blockClass": "image-destaque",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "image#destaque2": {
+    "props": {
+      "src": "assets/banner-guerreiros.png",
+      "alt": "Banner Guerreiros",
+      "link": "arqueiro/p",
+      "blockClass": "image-destaque"
     }
   }
 }
