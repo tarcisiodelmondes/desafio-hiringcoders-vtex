@@ -1,26 +1,81 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-desktop"]
+  },
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-mobile"]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#spacer-home",
+      "link#login",
+      "link#desafio",
+      "link#loja",
+      "link#suporte",
+      "flex-layout.col#spacer-home"
+    ],
+    "props": {
+      "blockClass": "footer-desktop",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": ["link#login", "link#desafio", "link#loja", "link#suporte"],
+    "props": {
+      "blockClass": "footer-mobile",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#spacer-home": {
+    "props": {
+      "width": "30%"
+    }
+  },
+
+  "link#login": {
+    "props": {
+      "href": "/login",
+      "label": "Login",
+      "blockClass": "link-footer"
+    }
+  },
+
+  "link#desafio": {
+    "props": {
+      "href": "/",
+      "label": "Desafio",
+      "blockClass": "link-footer"
+    }
+  },
+
+  "link#loja": {
+    "props": {
+      "href": "/",
+      "label": "Loja",
+      "blockClass": "link-footer"
+    }
+  },
+  "link#suporte": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=+5587981299393&text=Olá, me chamo Tarcísio, para falar sobre o desafio da UpMedal me manda message no WhatsApp",
+      "label": "Suporte",
+      "blockClass": "link-footer"
     }
   }
 }

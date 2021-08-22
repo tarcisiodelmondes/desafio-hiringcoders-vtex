@@ -1,3 +1,4 @@
+/* Home */
 .listContainer {
   background-color: #212121;
 }
@@ -17,4 +18,26 @@
 .listItemActive :global(.vtex-button) {
   border-bottom-color: #14ff00;
   color: #14ff00;
+}
+
+/* Page Product */
+.listContainer--tab-list-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #424242;
+}
+
+.container--product-tab {
+  background-color: #424242;
+  width: 75%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.container--tab-mobile {
+  background-color: #424242;
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem;
 }

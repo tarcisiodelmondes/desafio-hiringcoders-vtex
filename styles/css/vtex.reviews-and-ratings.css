@@ -1,0 +1,17 @@
+.stars {
+  font-size: 10px;
+  position: relative;
+  right: 0;
+}
+
+.summaryTotalReviews {
+  display: none;
+}
+
+.container {
+  color: #fff;
+}
+
+.loginLink {
+  color: #59ff00;
+}

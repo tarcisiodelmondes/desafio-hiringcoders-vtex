@@ -1,0 +1,14 @@
+.searchResultContainer {
+  margin-top: 3rem;
+}
+
+.gallery--whole {
+  padding: 0;
+  margin: 0;
+}
+
+.galleryItem--whole {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}

@@ -5,3 +5,11 @@
 .minicartIconContainer :global(.vtex-cartIcon) {
   height: 100px;
 }
+
+.minicartTitle {
+  display: none;
+}
+
+.minicartProductListContainer {
+  background-color: #424242;
+}

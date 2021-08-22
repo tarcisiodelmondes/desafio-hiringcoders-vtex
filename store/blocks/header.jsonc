@@ -44,7 +44,6 @@
   "image#logo": {
     "props": {
       "src": "assets/brand/upmedal.png",
-      "link": "/",
       "maxHeight": 38,
       "blockClass": "image-logo"
     }
@@ -55,18 +54,6 @@
       "openAutocompleteOnFocus": true,
       "autocompleteWidth": "100%",
       "placeholder": "Buscar"
-    }
-  },
-
-  "minicart.v2": {
-    "props": {
-      "MinicartIcon": "icon-cart#minicart-icon"
-    }
-  },
-
-  "icon-cart#minicart-icon": {
-    "props": {
-      "size": 24
     }
   },
 

@@ -4,8 +4,6 @@
 }
 
 .slideChildrenContainer {
-  border-radius: 20px;
-  overflow: hidden;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -13,15 +11,21 @@
 /* Dots */
 .paginationDotsContainer {
   position: absolute;
-  bottom: -88px;
+  bottom: -28px;
 }
 
 /* Arrow */
 .sliderArrows {
+  display: block;
   position: absolute;
-  bottom: -100px;
+  bottom: -52px;
   padding: 0 2rem 0 2rem;
   color: #fff;
+}
+
+.sliderLeftArrow,
+.sliderRightArrow {
+  padding: 15px;
 }
 
 @media (max-width: 810px) {
