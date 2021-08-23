@@ -1,62 +1,60 @@
-# Minimum Boilerplate Theme
+<h1 align="center">
+  UpMedal
+</h1>
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+<p align="center">
+<a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp
+</p>
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-## Configuration
+<br>
 
-### Step 1 -  Basic setup
+<p align="center">
+  <img alt="Imagem do site UpMedal" src="../.github/ecommerce.svg" width="100%">
+</p>
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+<a id="funcionalidades"></a>
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+## Funcionalidades
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+- [x] Layout responsivo
+- [x] Listagem de produtos por categoria
+- [x] Integração com a API do WhatsApp
+- [x] Criado Minicard para lista dos produtos no carrinho
+- [x] Pagina do produto
+- [x] Formulário de captaçao de leads
+- [x] Salvar dados na AWS usando API Gateway + Lambda + DynamoDB
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+## Demonstração da aplicação
 
-Then, access the repository's directory using your terminal. 
+Acesse: <https://tarcisioupmedal--hiringcoders2021.myvtex.com/> (Para poder ver o site você precisa ter uma conta VTEX com o devido acesso.)
 
-### Step 3 - Editing the `Manifest.json`
+<a id="tecnologias"></a>
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
+## 🚀 Tecnologias
 
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
-```
+- VTEX IO
+- React
+- Typescript
+- HTML
+- CSS
 
-### Step 4 -  Installing required apps
+<a id="projeto"></a>
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+## 💻 Projeto
 
-Run  `vtex list`  and check whether those apps are already installed. 
+Esse site foi resultado de um desafio, que tinha como objeto replicar o site
+da UpMedal em uma semana utlizando o VTEX IO.
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
+---
 
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
-
-```json
-vtex uninstall vtex.store-theme
-```
-
-### Step 6- Run and preview your store
-
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
-
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
-
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+Feito com ♥ by Tarcisio Delmondes :wave: [Me siga no linkedin](https://www.linkedin.com/in/tarcisio-delmondes/)
