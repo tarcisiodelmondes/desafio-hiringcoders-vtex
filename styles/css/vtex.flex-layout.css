@@ -1,21 +1,24 @@
 /* Header Desktop */
 
-.flexRowContent {
-  background-color: #212121;
+.sticky-header {
+  background-color: #212121 !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 8rem;
-  padding-left: 1.3rem;
+}
+
+.flexRowContent--main-header {
+  background-color: #212121 !important;
 }
 
 /* Header Mobile */
 
-.flexRowContent--main-header-mobile {
+.flexRowContent--main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  background-color: #212121;
 }
 
 /* Footer */
@@ -78,7 +81,7 @@
 }
 
 .flexRowContent--price-add-cart {
-  width: 340px;
+  width: 200px;
   display: inline-flex;
   justify-content: space-evenly;
   background-color: transparent;

@@ -24,7 +24,8 @@
       "preventVerticalStretch": true,
       "fullWidth": true,
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "blockClass": "main-header"
     },
     "children": ["flex-layout.col#logo-desktop", "search-bar", "minicart.v2"]
   },
@@ -67,7 +68,7 @@
   "flex-layout.row#mobile": {
     "children": ["image#logo", "search-bar", "minicart.v2"],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "main-header",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true

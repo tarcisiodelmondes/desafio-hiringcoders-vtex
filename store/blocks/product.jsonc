@@ -19,7 +19,8 @@
       "flex-layout.row#page-product-image-desktop",
       "flex-layout.row#name-price",
       "tab-layout#product",
-      "flex-layout.row#price-add-cart"
+      "flex-layout.row#price-add-cart",
+      "form-popup"
     ]
   },
 

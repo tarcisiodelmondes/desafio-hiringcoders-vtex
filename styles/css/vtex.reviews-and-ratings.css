@@ -4,6 +4,10 @@
   right: 0;
 }
 
+:global(.vtex-reviews-and-ratings-2-x-stars) {
+  color: #59ff00;
+}
+
 .summaryTotalReviews {
   display: none;
 }
